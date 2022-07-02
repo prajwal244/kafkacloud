@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        personSupplier-out-0:
+          destination: test
+        personSupplier1-out-0:
+          destination: FirstTest
+        

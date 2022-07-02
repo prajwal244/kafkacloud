@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    function:
+      definition: personConsumer;bookConsumer
+    stream:      bindings:
+        personConsumer-in-0:
+          destination: test
+        bookConsumer-in-0:
+          destination: FirstTest
+          
+server:  port: 9000        
+                
+
+
+  
+
+              
